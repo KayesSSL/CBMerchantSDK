@@ -1,0 +1,42 @@
+# Ignore macOS metadata
+.DS_Store
+
+# Xcode project files
+xcuserdata/
+*.xcworkspace
+DerivedData/
+build/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/xcschemes/*
+*.xcodeproj/xcshareddata/xcschemes/xcschememanagement.plist
+
+# Ignore Carthage/Checkouts
+Carthage/Checkouts
+
+# CocoaPods generated files
+Pods/
+Podfile.lock
+
+# Ignore Swift Package Manager files
+#.swiftpm/
+#Package.resolved
+
+# XCFramework build files
+#*.xcframework
+
+# Ignore compiled assets
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Temporary and log files
+*.swp
+*.swo
+*.lock
+*.log
+*.tmp
+
+# Ignore any other unnecessary build products
+*.app
+*.pbxproj
